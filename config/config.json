@@ -1,0 +1,42 @@
+{
+  "local": {
+    "database": {
+      "username": "postgres",
+      "password": "Midhun@2000",
+      "database": "truckmanagement",
+      "dialect": "postgres",
+      "port": 5432,
+      "logging": false
+    },
+    "stripe": {
+      "publishable_key": "pk_test_51MpRl9SJBwKM6C1lhBMnbVYfjw3FA9UjVzEuuRQtEyiRnp4xC1Im2tXvWWBIrVEh0m6WSyvrtGcJfSjzmKj7aeDU00Ci5Qmrpz",
+      "secret_key": "sk_test_51MpRl9SJBwKM6C1lyJL1VmBqDlhUyXOZAliCmFZRR221gKm4pzmOlK1Tt4vB1VXnyD641bxmfSiM2vfRRCP59yNM004vOZKHRi"
+    },
+
+    "jwts": {
+      "JWT_SECRET": "MIDHUNMOHAN"
+    },
+    "docusign": {
+      "integrationKey": "9b317513-3a25-4039-b06a-8f5c810b4dc8",
+      "basePath": "https://demo.docusign.net/restapi",
+      "userId": "f1ec9fad-58b4-459e-8699-9c291dce93f5",
+      "accountId": "f6de0fab-6bc6-4607-b472-1cb5d70728fa",
+      "templateId": "56009c79-b631-4de2-ae08-3b3d1218fa3b",
+      "clientUserId": "2000"
+    },
+    "mail": {
+      "host": "smtp.gmail.com",
+      "service": "gmail",
+      "email": "midhun@spericorn.com",
+      "pass": "Midhun@2000"
+    },
+
+    "AES": {
+      "secretKey": "MIDHUNMOHAN"
+    },
+    "Google": {
+      "Client ID": "137509583881-gla64lmsok36nk11t4kahmaejsh88ovc.apps.googleusercontent.com",
+      "Client secret": "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"
+    }
+  }
+}
