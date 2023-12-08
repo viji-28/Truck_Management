@@ -1,0 +1,80 @@
+.routes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.add-route-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+
+.add-route-button {
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.add-route-button:hover {
+  background-color: #3e8e41;
+}
+
+.route-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.route-item {
+  width: 400px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.route-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.route-name {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f7f7f7;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.route-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.route-distance {
+  font-weight: bold;
+}
+
+.route-difficulty {
+  text-transform: uppercase;
+  color: #aaa;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
